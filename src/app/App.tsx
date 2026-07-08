@@ -5,7 +5,7 @@ import { PlaceholderTool } from './components/PlaceholderTool';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sls-Icanhelp">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cost-calculator" element={<CostCalculator />} />
